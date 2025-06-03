@@ -1,0 +1,15 @@
+[project]
+name = "pyfile_summariser"
+version = "0.1.0"
+description = "Hides function and method bodies to reduce load on the context"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+pyfile_summariser = "pyfile_summariser.cli:main" 
+
